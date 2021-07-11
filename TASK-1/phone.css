@@ -1,0 +1,375 @@
+/* Here we will make our website responsive */
+@media  (min-width: 1267px) {
+    .slide:nth-child(1)
+    {
+        margin:auto;
+        padding: 186px;
+    }
+   .slide:nth-child(2)
+   {
+       width: 1800px;
+       padding-right: 60px;
+   }
+
+}
+@media  (max-width:1253px)
+{
+    #terms>img{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin-right:-30px;
+        margin-left: 80px;
+    }
+    #navbar ul{
+        display: flex;
+        flex-direction:row;
+        justify-content: flex-start;
+    }
+    #navbar ul li{
+        margin:-90px;
+    }
+    #navbar ul li a{
+        padding: 0px 0px;
+    }
+}
+@media (max-width:1100px)
+{
+    .cardcontainer{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin: 0px;
+    }
+    .card-img {
+        height: 30% !important;
+        width: 30% !important;
+    }
+    #projects>h1{
+        padding-top: 140px !important;
+    }
+}
+@media (max-width:998px)
+{
+    .project-grid{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+    }
+    .project-grid:nth-child(1)
+    {
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start:1;
+        grid-row-end:2;
+    }
+    .project-grid:nth-child(2)
+    {
+        grid-column-start:2;
+        grid-column-end:3;
+        grid-row-start:1;
+        grid-row-end:2;
+    }
+    .project-grid:nth-child(3)
+    {
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start:2;
+        grid-row-end:3;
+    }
+    .project-grid:nth-child(4)
+    {
+        grid-column-start:2;
+        grid-column-end:3;
+        grid-row-start:2;
+        grid-row-end:3;
+    }
+    .projectcontainer{
+        width:100% !important;
+    }
+    #navbar ul li a {
+        padding: 2px 0px !important;
+        margin: 2px 20px !important;
+    }
+    .card-img{
+        height: 19% !important;
+    }
+    #navheading{
+        font-size: 2rem !important;
+        position: absolute;
+        left:220px !important;
+    }
+    #navsubheading{
+        font-size: 1.2rem !important;
+        position: absolute;
+        left:270px !important;
+    }
+    #head-btn1 {
+        position:absolute;
+        left:350px !important;
+    }
+    #head-btn2 {
+        position:absolute;
+        left:450px !important;
+    }
+    #welcome>h1 {
+        padding-top: 75px;
+        text-align: center;
+        font-size: 2.0rem !important; 
+        font-family: 'Raleway', sans-serif;
+    }
+    #intro {
+        width: 32%;
+        margin: 100px auto;
+        text-align: center !important;
+        font-size: 1.2rem !important;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width:890px)
+{
+    .container{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+@media (max-width:763px)
+{
+    #contactinfo {
+        flex-direction: column !important;
+        padding:20px !important;
+    }
+    #navheading{
+        font-size: 2rem !important;
+        position: absolute;
+        left:150px !important;
+    }
+    #navsubheading{
+        font-size: 1.2rem !important;
+        position: absolute;
+        left:210px !important;
+    }
+    #imgcont {
+        flex-direction: column !important;
+    }
+    .project-grid{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(4,auto);
+    }
+    .project-grid:nth-child(1)
+    {
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start:1;
+        grid-row-end:2;
+    }
+    .project-grid:nth-child(2)
+    {
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start:2;
+        grid-row-end:3;
+    }
+    .project-grid:nth-child(3)
+    {
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start:3;
+        grid-row-end:4;
+    }
+    .project-grid:nth-child(4)
+    {
+        grid-column-start:1;
+        grid-column-end:2;
+        grid-row-start:4;
+        grid-row-end:5;
+    }
+    .projectcontainer{
+        width:50% !important;
+        margin:5px auto !important;
+    }
+    .leftbutton, .rightbutton {
+        width: 42% !important;
+    }
+    #head-btn1 {
+        position:absolute;
+        left:250px !important;
+    }
+    #head-btn2 {
+        position:absolute;
+        left:350px !important;
+    }
+    .cardcontainer {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .slide:nth-child(1) {
+        width: 756px !important;
+    }
+    .card>p{
+        width: 93% !important;
+    }
+    #navbar ul{
+        flex-wrap: wrap !important;
+    }
+}
+@media (max-width:681px)
+{
+    #navheading{
+        font-size: 1.4rem !important;
+        position: absolute;
+        left:150px !important;
+    }
+    #navsubheading{
+        font-size: 1.0rem !important;
+        position: absolute;
+        left:170px !important;
+    }
+    #head-btn1 {
+        position:absolute;
+        left:200px !important;
+    }
+    #head-btn2 {
+        position:absolute;
+        left:310px !important;
+    }
+}
+@media (max-width:631px)
+{
+    
+    .pricecontainer {
+        flex-direction: column !important;
+        width: 70%;
+      
+    }
+    .pricetable{
+        border-right:none !important;
+    }
+    .lifeimages {
+        width: 300px !important;
+        margin: auto auto;
+    }
+    #life-header {
+        font-size: 1.5rem !important;
+    }
+    .leftbutton, .rightbutton {
+        width: 24% !important;
+    }
+    .news>input {
+        width: 27% !important;
+    }
+    .blogcontainer>img {
+        width: 31% !important;
+    }
+    
+element.style {
+}
+.blogcontainer>p {
+    width: 23% !important;
+    font-size: 1.0rem !important;
+}
+#memhead{
+    font-size: 1.3rem !important;
+}
+}
+@media (max-width:500px)
+{
+    #grid-container
+{
+    grid-template-columns:100% !important;
+    grid-template-rows:repeat(2,auto) !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+#itemone>img{
+
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 2 !important;
+}
+#item2{
+    grid-column-start:1 !important;
+    grid-column-end: 2 !important;
+    grid-row-start: 2 !important;
+    grid-row-end: 3 !important;
+
+}
+#item2 {
+    padding-left: 150px !important;
+}
+#navheading {
+    font-size: 1.2rem !important;
+    position: absolute;
+    left: 109px !important;
+}
+#navsubheading {
+    font-size: 1.0;
+    position: absolute;
+    left: 104px !important;
+}
+#head-btn1{
+    margin: 0px auto !important;
+    position: absolute;
+    left:130px !important;
+}
+#head-btn2{
+    margin: 0px auto !important;
+    position:absolute;
+    left:240px !important;
+}
+#welcome>h1{
+    font-size: 1.4rem !important;
+}
+.news>span{
+    font-size: 1.4rem !important;
+}
+.videoheading{
+    font-size: 1.4rem !important;
+}
+.videothumbnail{
+    width: 437px !important;
+}
+.life-img{
+    width: 70% !important;
+}
+#videoslider::-webkit-scrollbar-track-piece
+    {
+        display: none;
+        overflow-y:scroll;
+        direction: rtl;
+    }
+
+}
+@media (max-width:450px)
+{
+    #navheading {
+        font-size: 1.00rem !important;
+        position: absolute;
+        left: 80px !important;
+    }
+    #navsubheading {
+        font-size: 0.8 !important;
+        position: absolute;
+        left: 50px !important;
+    }
+    #head-btn1{
+        margin: 0px auto !important;
+        position: absolute;
+        left:90px !important;
+    }
+    #head-btn2{
+        margin: 0px auto !important;
+        position:absolute;
+        left:200px !important;
+    }
+    .slide:nth-child(2) {
+        width: 983px !important;
+    }
+    #pricing>h1{
+        font-size: 1.4rem !important;
+    }
+}
